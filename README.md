@@ -1,33 +1,39 @@
 🎮 Memory Card Game
 
-An interactive and responsive Memory Card Game built using React.js and Vite.
-Test your memory skills by matching all emoji card pairs in the fewest moves possible.
+A modern and interactive Memory Card Game built using React.js and Vite.
+This project challenges players to match emoji card pairs using memory and concentration while tracking score and moves in real time.
 
-🚀 Features
-🎴 Flip card animations
-🔀 Randomized card shuffle every game
+✨ Features
+🎴 Smooth card flip animations
+🔀 Random card shuffling every game
 🧠 Match pair detection system
-📊 Real-time score and moves counter
-🔒 Card lock mechanism while checking matches
-🏆 Winning message after completing the game
+📊 Real-time score & move tracking
+🔒 Card locking while checking matches
+🏆 Winning message after game completion
 🔄 Restart / New Game functionality
-⚡ Fast and optimized development using Vite
+⚡ Fast development using Vite
 🎨 Responsive modern UI design
 🛠️ Tech Stack
 React.js
 JavaScript (ES6+)
 Vite
 CSS3
-React Hooks (useState, useEffect)
+React Hooks
+useState
+useEffect
 Custom Hooks
+
 📂 Project Structure
 src
+│
 ├── components
 │   ├── Card.jsx
 │   ├── GameHeader.jsx
 │   ├── WinMessage.jsx
+│   │
 │   └── hooks
 │       └── useGameLogic.js
+│
 ├── App.jsx
 ├── index.css
 └── main.jsx
@@ -41,42 +47,36 @@ src
 ![Game Complete](https://github.com/shaz-code/Memory-card-game/blob/main/public/screenshot/after.png?raw=true)
 
 ⚙️ Installation & Setup
-
-Clone the repository:
-
+Clone the repository
 git clone https://github.com/shaz-code/Memory-card-game.git
-
-Navigate into the project directory:
-
+Navigate to project folder
 cd Memory-card-game
-
-Install dependencies:
-
+Install dependencies
 npm install
-
-Run the development server:
-
+Start development server
 npm run dev
-🧠 Game Logic
-
-The game uses:
-
-Card shuffle algorithm
-State management using React Hooks
-Match checking system
-Delayed flip-back animation using setTimeout
-Custom hook for reusable game logic
-🎯 Future Improvements
-⏱️ Add timer functionality
-🎵 Add sound effects
-🏅 Add leaderboard system
-📱 Improve mobile responsiveness
-🎚️ Add multiple difficulty levels
+🧠 Core Concepts Implemented
+React Components
+Props & State Management
+Conditional Rendering
+Event Handling
+Array Mapping
+Dynamic UI Updates
+Card Matching Logic
+Custom React Hooks
+Game State Management
+🚀 Future Improvements
+⏱️ Timer functionality
+🎵 Sound effects
+📱 Better mobile responsiveness
+🎚️ Difficulty levels
+🏅 Leaderboard system
 👨‍💻 Author
+Shahil Ahmed MF
 
-Shahil Ahmed
+🔗 GitHub:
+https://github.com/shaz-code
 
-GitHub: https://github.com/shaz-code
 ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub!
+If you liked this project, consider giving it a ⭐ on GitHub!
